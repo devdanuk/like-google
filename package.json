@@ -1,0 +1,27 @@
+{
+	"name": "LikeGoogle",
+	"displayName": "Like Google Theme",
+	"description": "A theme a like Googles dark code syntax highlighter",
+	"version": "1.0.0",
+	"publisher": "dangtd",
+	"repository": {
+		"type": "git",
+		"url": ""
+	},
+	"engines": {
+		"vscode": "*"
+	},
+	"categories": [
+		"Themes"
+	],
+	"icon": "icon.png",
+	"contributes": {
+		"themes": [
+			{
+				"label": "LikeGoogle",
+				"uiTheme": "vs-dark",
+				"path": "./themes/likegoogle-theme.json"
+			}
+		]
+	}
+}
